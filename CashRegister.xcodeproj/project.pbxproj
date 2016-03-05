@@ -12,6 +12,7 @@
 		97140C1B1C8A802600852AD7 /* Badminton.m in Sources */ = {isa = PBXBuildFile; fileRef = 97140C1A1C8A802600852AD7 /* Badminton.m */; };
 		97140C1E1C8A80D000852AD7 /* Cocacola.m in Sources */ = {isa = PBXBuildFile; fileRef = 97140C1D1C8A80D000852AD7 /* Cocacola.m */; };
 		97140C211C8A831200852AD7 /* Ultraman.m in Sources */ = {isa = PBXBuildFile; fileRef = 97140C201C8A831200852AD7 /* Ultraman.m */; };
+		97140C241C8A86C200852AD7 /* ShoppingItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 97140C231C8A86C200852AD7 /* ShoppingItemTableViewCell.m */; };
 		975ACBD71C8A72EE002FEBC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 975ACBD61C8A72EE002FEBC8 /* main.m */; };
 		975ACBDA1C8A72EE002FEBC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 975ACBD91C8A72EE002FEBC8 /* AppDelegate.m */; };
 		975ACBDD1C8A72EE002FEBC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 975ACBDC1C8A72EE002FEBC8 /* ViewController.m */; };
@@ -42,6 +43,8 @@
 		97140C1D1C8A80D000852AD7 /* Cocacola.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cocacola.m; sourceTree = "<group>"; };
 		97140C1F1C8A831200852AD7 /* Ultraman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ultraman.h; sourceTree = "<group>"; };
 		97140C201C8A831200852AD7 /* Ultraman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ultraman.m; sourceTree = "<group>"; };
+		97140C221C8A86C200852AD7 /* ShoppingItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingItemTableViewCell.h; sourceTree = "<group>"; };
+		97140C231C8A86C200852AD7 /* ShoppingItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingItemTableViewCell.m; sourceTree = "<group>"; };
 		975ACBD21C8A72EE002FEBC8 /* CashRegister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashRegister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		975ACBD61C8A72EE002FEBC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		975ACBD81C8A72EE002FEBC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -115,9 +118,11 @@
 			children = (
 				975ACBD81C8A72EE002FEBC8 /* AppDelegate.h */,
 				975ACBD91C8A72EE002FEBC8 /* AppDelegate.m */,
+				97140C0A1C8A772100852AD7 /* Model */,
 				975ACBDB1C8A72EE002FEBC8 /* ViewController.h */,
 				975ACBDC1C8A72EE002FEBC8 /* ViewController.m */,
-				97140C0A1C8A772100852AD7 /* Model */,
+				97140C221C8A86C200852AD7 /* ShoppingItemTableViewCell.h */,
+				97140C231C8A86C200852AD7 /* ShoppingItemTableViewCell.m */,
 				975ACBDE1C8A72EE002FEBC8 /* Main.storyboard */,
 				975ACBE11C8A72EF002FEBC8 /* Assets.xcassets */,
 				975ACBE31C8A72EF002FEBC8 /* LaunchScreen.storyboard */,
@@ -250,6 +255,7 @@
 				97140C1E1C8A80D000852AD7 /* Cocacola.m in Sources */,
 				975ACBDD1C8A72EE002FEBC8 /* ViewController.m in Sources */,
 				975ACBDA1C8A72EE002FEBC8 /* AppDelegate.m in Sources */,
+				97140C241C8A86C200852AD7 /* ShoppingItemTableViewCell.m in Sources */,
 				975ACBD71C8A72EE002FEBC8 /* main.m in Sources */,
 				97140C151C8A794C00852AD7 /* ShoppingItem.m in Sources */,
 			);
