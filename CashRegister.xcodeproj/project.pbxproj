@@ -13,6 +13,7 @@
 		97140C1E1C8A80D000852AD7 /* Cocacola.m in Sources */ = {isa = PBXBuildFile; fileRef = 97140C1D1C8A80D000852AD7 /* Cocacola.m */; };
 		97140C211C8A831200852AD7 /* Ultraman.m in Sources */ = {isa = PBXBuildFile; fileRef = 97140C201C8A831200852AD7 /* Ultraman.m */; };
 		97140C241C8A86C200852AD7 /* ShoppingItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 97140C231C8A86C200852AD7 /* ShoppingItemTableViewCell.m */; };
+		97140C271C8AC7E700852AD7 /* ShoppingListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97140C261C8AC7E700852AD7 /* ShoppingListViewController.m */; };
 		975ACBD71C8A72EE002FEBC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 975ACBD61C8A72EE002FEBC8 /* main.m */; };
 		975ACBDA1C8A72EE002FEBC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 975ACBD91C8A72EE002FEBC8 /* AppDelegate.m */; };
 		975ACBDD1C8A72EE002FEBC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 975ACBDC1C8A72EE002FEBC8 /* ViewController.m */; };
@@ -45,6 +46,9 @@
 		97140C201C8A831200852AD7 /* Ultraman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ultraman.m; sourceTree = "<group>"; };
 		97140C221C8A86C200852AD7 /* ShoppingItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingItemTableViewCell.h; sourceTree = "<group>"; };
 		97140C231C8A86C200852AD7 /* ShoppingItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingItemTableViewCell.m; sourceTree = "<group>"; };
+		97140C251C8AC7E700852AD7 /* ShoppingListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingListViewController.h; sourceTree = "<group>"; };
+		97140C261C8AC7E700852AD7 /* ShoppingListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingListViewController.m; sourceTree = "<group>"; };
+		97140C281C8AC88900852AD7 /* Consts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Consts.h; sourceTree = "<group>"; };
 		975ACBD21C8A72EE002FEBC8 /* CashRegister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashRegister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		975ACBD61C8A72EE002FEBC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		975ACBD81C8A72EE002FEBC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -118,11 +122,14 @@
 			children = (
 				975ACBD81C8A72EE002FEBC8 /* AppDelegate.h */,
 				975ACBD91C8A72EE002FEBC8 /* AppDelegate.m */,
+				97140C281C8AC88900852AD7 /* Consts.h */,
 				97140C0A1C8A772100852AD7 /* Model */,
 				975ACBDB1C8A72EE002FEBC8 /* ViewController.h */,
 				975ACBDC1C8A72EE002FEBC8 /* ViewController.m */,
 				97140C221C8A86C200852AD7 /* ShoppingItemTableViewCell.h */,
 				97140C231C8A86C200852AD7 /* ShoppingItemTableViewCell.m */,
+				97140C251C8AC7E700852AD7 /* ShoppingListViewController.h */,
+				97140C261C8AC7E700852AD7 /* ShoppingListViewController.m */,
 				975ACBDE1C8A72EE002FEBC8 /* Main.storyboard */,
 				975ACBE11C8A72EF002FEBC8 /* Assets.xcassets */,
 				975ACBE31C8A72EF002FEBC8 /* LaunchScreen.storyboard */,
@@ -251,6 +258,7 @@
 			files = (
 				97140C1B1C8A802600852AD7 /* Badminton.m in Sources */,
 				97140C211C8A831200852AD7 /* Ultraman.m in Sources */,
+				97140C271C8AC7E700852AD7 /* ShoppingListViewController.m in Sources */,
 				97140C181C8A7ADD00852AD7 /* Apple.m in Sources */,
 				97140C1E1C8A80D000852AD7 /* Cocacola.m in Sources */,
 				975ACBDD1C8A72EE002FEBC8 /* ViewController.m in Sources */,

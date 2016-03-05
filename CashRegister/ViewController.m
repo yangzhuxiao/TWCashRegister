@@ -12,9 +12,8 @@
 #import "Badminton.h"
 #import "Cocacola.h"
 #import "Ultraman.h"
-
-#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
-#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#import "Consts.h"
+#import "ShoppingListViewController.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate, ShoppingItemTableViewCellDelegate>
 
@@ -115,7 +114,9 @@
 - (void)showShoppingList
 {
     // go to show shopping list
-    _shoppingItemsDict;
+    ShoppingListViewController *listVC = [[ShoppingListViewController alloc] init];
+    listVC.shoppingListDict = _shoppingItemsDict;
+    [self presentViewController:listVC animated:YES completion:NO];
 }
 
 #pragma mark - Private
