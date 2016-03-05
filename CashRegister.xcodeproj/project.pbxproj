@@ -11,6 +11,7 @@
 		97140C181C8A7ADD00852AD7 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 97140C171C8A7ADD00852AD7 /* Apple.m */; };
 		97140C1B1C8A802600852AD7 /* Badminton.m in Sources */ = {isa = PBXBuildFile; fileRef = 97140C1A1C8A802600852AD7 /* Badminton.m */; };
 		97140C1E1C8A80D000852AD7 /* Cocacola.m in Sources */ = {isa = PBXBuildFile; fileRef = 97140C1D1C8A80D000852AD7 /* Cocacola.m */; };
+		97140C211C8A831200852AD7 /* Ultraman.m in Sources */ = {isa = PBXBuildFile; fileRef = 97140C201C8A831200852AD7 /* Ultraman.m */; };
 		975ACBD71C8A72EE002FEBC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 975ACBD61C8A72EE002FEBC8 /* main.m */; };
 		975ACBDA1C8A72EE002FEBC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 975ACBD91C8A72EE002FEBC8 /* AppDelegate.m */; };
 		975ACBDD1C8A72EE002FEBC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 975ACBDC1C8A72EE002FEBC8 /* ViewController.m */; };
@@ -39,6 +40,8 @@
 		97140C1A1C8A802600852AD7 /* Badminton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Badminton.m; sourceTree = "<group>"; };
 		97140C1C1C8A80D000852AD7 /* Cocacola.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cocacola.h; sourceTree = "<group>"; };
 		97140C1D1C8A80D000852AD7 /* Cocacola.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cocacola.m; sourceTree = "<group>"; };
+		97140C1F1C8A831200852AD7 /* Ultraman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ultraman.h; sourceTree = "<group>"; };
+		97140C201C8A831200852AD7 /* Ultraman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ultraman.m; sourceTree = "<group>"; };
 		975ACBD21C8A72EE002FEBC8 /* CashRegister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashRegister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		975ACBD61C8A72EE002FEBC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		975ACBD81C8A72EE002FEBC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -83,6 +86,8 @@
 				97140C1A1C8A802600852AD7 /* Badminton.m */,
 				97140C1C1C8A80D000852AD7 /* Cocacola.h */,
 				97140C1D1C8A80D000852AD7 /* Cocacola.m */,
+				97140C1F1C8A831200852AD7 /* Ultraman.h */,
+				97140C201C8A831200852AD7 /* Ultraman.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -240,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97140C1B1C8A802600852AD7 /* Badminton.m in Sources */,
+				97140C211C8A831200852AD7 /* Ultraman.m in Sources */,
 				97140C181C8A7ADD00852AD7 /* Apple.m in Sources */,
 				97140C1E1C8A80D000852AD7 /* Cocacola.m in Sources */,
 				975ACBDD1C8A72EE002FEBC8 /* ViewController.m in Sources */,
