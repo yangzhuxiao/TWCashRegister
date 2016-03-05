@@ -10,4 +10,6 @@
 
 @interface Cocacola : ShoppingItem
 
+- (id)initWithCocacolaQuantity:(NSInteger)quantity;
+
 @end

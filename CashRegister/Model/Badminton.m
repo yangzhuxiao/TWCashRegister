@@ -10,4 +10,20 @@
 
 @implementation Badminton
 
+- (id)initWithBadmintonQuantity:(NSInteger)quantity
+{
+    self = [super initWithItemName:@"羽毛球"
+                         itemPrice:1.00
+                      itemQuantity:quantity
+                      itemUnitName:@"个"
+             isOneFreeInEveryThree:YES
+             isFivePercentDiscount:NO];
+    if (self) {
+        
+    }
+    
+    return self;
+}
+
+
 @end

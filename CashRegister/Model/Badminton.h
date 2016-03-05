@@ -10,4 +10,6 @@
 
 @interface Badminton : ShoppingItem
 
+- (id)initWithBadmintonQuantity:(NSInteger)quantity;
+
 @end

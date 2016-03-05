@@ -10,4 +10,19 @@
 
 @implementation Cocacola
 
+- (id)initWithCocacolaQuantity:(NSInteger)quantity
+{
+    self = [super initWithItemName:@"可口可乐"
+                         itemPrice:3.00
+                      itemQuantity:quantity
+                      itemUnitName:@"瓶"
+             isOneFreeInEveryThree:YES
+             isFivePercentDiscount:NO];
+    if (self) {
+        
+    }
+    
+    return self;
+}
+
 @end
